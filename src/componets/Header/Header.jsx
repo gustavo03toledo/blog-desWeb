@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import CustomButton from '../CustomButton/CustomButton';
-import './header.scss';
+import './Header.scss';
 import logoBlog from "../../img/logoBlog.svg";
 
 const Header = () => {

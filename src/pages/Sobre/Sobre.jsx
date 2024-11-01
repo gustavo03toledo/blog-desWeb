@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../../componets/header/Header'
+import Header from '../../componets/Header/Header'
 import Footer from '../../componets/Footer/Footer'
 import logoAzul from '../../img/logoBlog2.svg'
 import netflix from '../../img/netflix.svg'
 import hbo from '../../img/hbo.svg'
 import prime from '../../img/prime.svg'
 import apple from '../../img/apple.svg'
-import './Sobre.scss'
+import './sobre.scss'
 
 const Sobre = () => {
   return (

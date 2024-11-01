@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from '../../componets/header/Header';
+import Header from '../../componets/Header/Header';
 import Footer from '../../componets/Footer/Footer';
 import './Register.scss';
 import CustomInput from '../../componets/CustomInput/CustomInput';
