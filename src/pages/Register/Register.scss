@@ -1,0 +1,51 @@
+.main-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100vh - 64px);
+
+    &__div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: var(--cor-secundaria);
+        padding: 30px;
+        border-radius: 20px;
+
+        &__inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        h2{
+            color: var(--cor-principal);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        &__buttons{
+            display: flex;
+            gap: 20px;
+            button{
+                border-radius: 10px;
+                &:hover{
+                    scale: 1.1;
+                    transition: 0.2s;
+                }
+                span{
+                    font-weight: 500;
+                    &:hover{
+                        text-shadow: 0 0 5px #FFF;
+                    }
+                }
+
+            }
+        }
+    }
+}

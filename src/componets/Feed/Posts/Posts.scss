@@ -1,0 +1,43 @@
+.div-post{
+    width: 60%;
+    min-width: 300px;
+    max-width: 700px;
+    background-color: var(--cor-secundaria);
+    padding: 3rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+    &__titulo{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    &__div-texto{
+        margin-bottom: 1rem;
+        &__texto{
+            color: var(--cor-principal);
+        }
+    }
+    &__comentario{
+        border-top: 5px solid grey;
+        margin: 2rem 0;
+    }
+    .btn-comentar-post{
+        
+        width: 10rem;
+        align-self: center;
+        border-radius: 10px;
+        span{
+          font-weight: bold;
+          &:hover{
+            text-shadow: 0 0 4px #fff;
+          }  
+        }
+        &:hover{
+            scale: 1.1;
+            transition: 0.2s;
+            box-shadow: 0 0 10px gray;
+        }
+    }
+}
